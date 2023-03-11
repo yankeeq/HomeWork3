@@ -49,22 +49,24 @@ Console.Write("Введите координату по Y для второй т
 double y2 = Convert.ToDouble(Console.ReadLine());
 Console.Write("Введите координату по Z для второй точки ");
 double z2 = Convert.ToDouble(Console.ReadLine());
-/*
+
 
 double distance = Distance2D(x1, y1, z1, x2, y2, z2);
 System.Console.WriteLine($"Расстояние между точками = {distance}");
-
+*/
 
 
 // Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
 
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
-/*
+
 Console.WriteLine("напишите число");
 int number = Convert.ToInt32(Console.ReadLine());
 for(int i=1; i <=number; i++)
 {
-    System.Console.WriteLine($"{Math.Pow(i,3)}");
+    Console.Write(" ");
+    System.Console.Write($"{Math.Pow(i,3)}");
 }
-*/
+
+
